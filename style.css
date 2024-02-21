@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+.container{
+    
+    max-width: 80vw;
+    margin: 40px auto;
+}
+
+.title{
+    text-align: center;
+}
+.upload-button{
+    text-align: center;
+}
+
+.upload-button .form{
+    margin: 20px;
+}
+
+.upload-button input{
+    text-align: center;
+    margin: auto;
+
+    padding: 60px 0 30px 70px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    transition: all .3s;
+}
+.upload-button input:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.upload-button input::before{
+    
+    content: "Drag and Drop";
+    position:absolute;
+    top: 10%;
+    left: 35%;
+}
+
+.upload-button input::after{
+    
+    content: "or";
+    position:absolute;
+    top: 30%;
+    left: 45%;
+}
+
+#img{
+    height: 250px;
+    width: auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
